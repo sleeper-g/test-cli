@@ -12,7 +12,7 @@ test('should state healthy', () => {
 test('should state wounded', () => {
   expect(state({name: 'Mag', health: 50})).toBe('wounded')
 })
-test('should state wounded', () => {
+test('should state wounded1', () => {
   expect(state({name: 'Mag', health: 15})).toBe('wounded')
 })
 test('should state critical', () => {

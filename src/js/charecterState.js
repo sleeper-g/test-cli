@@ -1,4 +1,6 @@
+let person = {name: 'Маг', health: 90}
 export default function state({name, health}){
+  console.log(name)
   if (health > 50){
     return 'healthy'
   } else {
@@ -9,4 +11,4 @@ export default function state({name, health}){
     }
   }
 }
-
+state(person)
